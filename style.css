@@ -1,15 +1,15 @@
 body {
-    background: rgb(177, 177, 211);
+    background: #EAE3C8;
     margin: 0;
     text-align: center;
+    list-style-position: inside;  
 }
 
 .top-container {
-    background: rgb(125, 125, 170);
+    background: #CFC5A5;
     position: relative;
     padding-top: 100px;
     height: 50px;
-    
 }
 
 .middle-container {
@@ -21,8 +21,26 @@ h1 {
     padding: o;
 }
 
+h2 {
+    font-size: 18px;
+}
+
+#h2flowers {
+border: none;
+  background-color: #A1CAE2;
+  padding: 12px 22px;
+  font-size: 24px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+#ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
 .bottom-container {
-    background:rgb(125, 125, 170);
+    background: #CFC5A5;
     padding: 50px 0 30px;
     bottom: 0;
     position: relative;
