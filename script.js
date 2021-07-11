@@ -3,16 +3,38 @@ h2.textContent = "This content added by JavaScript";
 document.querySelector('body').appendChild(h2);
 
 
-function addingEventListener() {
-    
-    const input = document.getElementById('flowers');
+//function addingEventListener() {
+    //const input = document.getElementById('flowers');
+    //function clickAlert() {
+      //alert('I was clicked!');
+   // }
+    //input.addEventListener('click', clickAlert); 
+//}
+//addingEventListener();
 
-    function clickAlert() {
-      alert('I was clicked!');
+function addingEventListeners() {
+    const inputs = document.getElementById('h2');
+    function showMyImage() {
+        flowers.src = "flowers.jpg";
+        flowers.style.display = 'block';
+        
     }
-    
-    input.addEventListener('click', clickAlert); 
-
+    inputs.addEventListener('click', showMyImage); 
 }
+addingEventListeners();
 
-addingEventListener();
+function addingMoreEventListeners() {
+    const inputs = document.getElementById('h2');
+    function showMyImage() {
+        flowers.src = "flowerscolors.jpg";
+        flowers.style.display = 'block';
+        
+    }
+    inputs.addEventListener('mouseout', showMyImage); 
+}
+addingMoreEventListeners();
+
+
+
+
+
